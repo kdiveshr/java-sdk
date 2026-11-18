@@ -13,6 +13,8 @@
   <url>https://dapr.io</url>
 
   <properties>
+    <!-- Reproducibility study fix, playbook step 2: pin archive timestamps to the pinned commit time. -->
+    <project.build.outputTimestamp>1794852054</project.build.outputTimestamp>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <grpc.version>1.84.0</grpc.version>
     <protobuf.version>3.25.5</protobuf.version>
